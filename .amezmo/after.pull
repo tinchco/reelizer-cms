@@ -1,0 +1,42 @@
+#!/bin/bash
+
+
+set -e;
+
+echo "Running composer install from ${APPLICATION_ROOT}";
+
+env;
+
+
+
+composer \
+    --no-ansi \
+    --no-interaction \
+    --optimize-autoloader \
+    --no-progress \
+    --no-dev \
+    --profile \
+    install
+
+php artisan config:cache;
+php artisan route:cache || true;
+
+php artisan migrate --no-interaction --no-ansi --force;
+
+if [ -f "package.json" ]; then
+    NODE_ENV=production npm \
+        --no-audit \
+        --no-bin-links \
+        --no-optional \
+        --only=prod \
+        --no-progress install;
+fi
+
+if [ ! -d "/webroot/storage/public" ]; then
+    mkdir /webroot/storage/public;
+fi
+
+ln --symbolic --force --no-dereference /webroot/storage/public "${APPLICATION_ROOT}/public/storage";
+
+
+exit 0;
