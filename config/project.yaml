@@ -1,0 +1,213 @@
+dateModified: 1592957900
+email:
+  fromEmail: ret+reelizer@tinch.co
+  fromName: Reelizer
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  1168b37e-e44d-4837-a7b4-be37f0db3647:
+    name: People
+  3183a522-3f08-4dbd-91b3-e38784120d7a:
+    name: Common
+  4f79aecd-c458-49fb-9f06-0510815918ed:
+    name: Movies
+fields:
+  1e26e8e7-3d94-411a-ae03-3afd8f7fd4c5:
+    contentColumnType: datetime
+    fieldGroup: 4f79aecd-c458-49fb-9f06-0510815918ed
+    handle: releaseDate
+    instructions: ''
+    name: 'Release Date'
+    searchable: true
+    settings:
+      minuteIncrement: '30'
+      showDate: true
+      showTime: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Date
+  7c5f7163-94ca-463f-9658-2a71fa550d15:
+    contentColumnType: text
+    fieldGroup: 4f79aecd-c458-49fb-9f06-0510815918ed
+    handle: originalName
+    instructions: ''
+    name: 'Original Name'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  af0d375d-ceb0-44a2-843b-89da565833bb:
+    contentColumnType: text
+    fieldGroup: 1168b37e-e44d-4837-a7b4-be37f0db3647
+    handle: lastName
+    instructions: ''
+    name: 'Last Name'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c86f3bea-f15e-45ea-bcb1-d15271050e14:
+    contentColumnType: text
+    fieldGroup: 1168b37e-e44d-4837-a7b4-be37f0db3647
+    handle: firstName
+    instructions: ''
+    name: 'First Name'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+graphql:
+  schemas:
+    fb3be199-ee1e-4073-9808-2e7aa404470c:
+      isPublic: true
+      name: 'Public Schema'
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
+sections:
+  04feea2b-63cb-417d-936d-e76f76c80345:
+    enableVersioning: true
+    entryTypes:
+      2da3a35a-a3f0-43b7-9508-82b48e03fd5e:
+        handle: movie
+        hasTitleField: true
+        name: Movie
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Name
+    handle: movies
+    name: Movies
+    previewTargets:
+      -
+        __assoc__:
+          -
+            - label
+            - 'Primary entry page'
+          -
+            - urlFormat
+            - '{url}'
+          -
+            - refresh
+            - '1'
+    propagationMethod: all
+    siteSettings:
+      1eac5e05-6bb4-47c3-ad67-d9f6c170d55c:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'movies/{slug}'
+    type: channel
+  10b06272-99be-4a67-8661-d2c4e5064f18:
+    enableVersioning: true
+    entryTypes:
+      3361190f-4808-4be5-b215-38bf94edd9a2:
+        handle: person
+        hasTitleField: true
+        name: Person
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Title
+    handle: people
+    name: People
+    previewTargets:
+      -
+        __assoc__:
+          -
+            - label
+            - 'Primary entry page'
+          -
+            - urlFormat
+            - '{url}'
+          -
+            - refresh
+            - '1'
+    propagationMethod: all
+    siteSettings:
+      1eac5e05-6bb4-47c3-ad67-d9f6c170d55c:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'people/{slug}'
+    type: channel
+  61807da0-a442-4685-bfcc-09bf44bb182c:
+    enableVersioning: true
+    entryTypes:
+      1df00b0a-8c79-4001-8d47-46e45ea01067:
+        handle: article
+        hasTitleField: true
+        name: Article
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Title
+    handle: articles
+    name: Articles
+    previewTargets:
+      -
+        __assoc__:
+          -
+            - label
+            - 'Primary entry page'
+          -
+            - urlFormat
+            - '{url}'
+          -
+            - refresh
+            - '1'
+    propagationMethod: all
+    siteSettings:
+      1eac5e05-6bb4-47c3-ad67-d9f6c170d55c:
+        enabledByDefault: true
+        hasUrls: true
+        template: ''
+        uriFormat: 'articles/{slug}'
+    type: channel
+siteGroups:
+  1a0c3718-ac66-4862-9ee6-4d676908d3c1:
+    name: Reelizer
+sites:
+  1eac5e05-6bb4-47c3-ad67-d9f6c170d55c:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: Reelizer
+    primary: true
+    siteGroup: 1a0c3718-ac66-4862-9ee6-4d676908d3c1
+    sortOrder: 1
+system:
+  edition: pro
+  live: true
+  name: Reelizer
+  schemaVersion: 3.4.10
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
