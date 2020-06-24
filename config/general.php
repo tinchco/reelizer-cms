@@ -32,7 +32,7 @@ return [
         'securityKey' => App::env('SECURITY_KEY'),
 
         // Whether Craft should set users’ usernames to their email addresses
-        'useEmailAsUsername' => true,
+        // 'useEmailAsUsername' => true,
 
         // Whether to save the project config out to config/project.yaml
         // (see https://docs.craftcms.com/v3/project-config.html)
