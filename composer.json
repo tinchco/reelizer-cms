@@ -1,7 +1,7 @@
 {
   "require": {
     "craftcms/aws-s3": "1.2.8",
-    "craftcms/cms": "3.4.25",
+    "craftcms/cms": "3.4.26",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {
