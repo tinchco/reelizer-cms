@@ -1,0 +1,10 @@
+handle: providerTypes
+name: 'Provider Types'
+siteSettings:
+  1eac5e05-6bb4-47c3-ad67-d9f6c170d55c:
+    hasUrls: true
+    template: ''
+    uriFormat: 'provider-types/{slug}'
+structure:
+  maxLevels: null
+  uid: f351fef1-a026-4a95-ad23-04fa701fd45e

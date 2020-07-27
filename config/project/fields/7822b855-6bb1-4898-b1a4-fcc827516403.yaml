@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 68b8bf74-05e0-459b-8f1d-fb4f5493990b
+handle: subjects
+instructions: ''
+name: Subjects
+searchable: true
+settings:
+  allowSelfRelations: ''
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  source: null
+  sources:
+    - 'section:04feea2b-63cb-417d-936d-e76f76c80345'
+    - 'section:10b06272-99be-4a67-8661-d2c4e5064f18'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

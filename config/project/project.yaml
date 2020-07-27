@@ -1,0 +1,30 @@
+dateModified: 1595852980
+email:
+  fromEmail: ret+reelizer@tinch.co
+  fromName: Reelizer
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  single-cat:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.0
+system:
+  edition: pro
+  live: true
+  name: Reelizer
+  schemaVersion: 3.5.12
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

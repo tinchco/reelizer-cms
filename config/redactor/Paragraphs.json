@@ -1,0 +1,12 @@
+{
+  "buttons": [
+    "bold",
+    "italic",
+    "link",
+    "deleted",
+    "lists"
+  ],
+  "plugins": [],
+  "autoparse": false,
+  "pastePlainText": true
+}

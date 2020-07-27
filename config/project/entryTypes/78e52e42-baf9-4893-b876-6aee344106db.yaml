@@ -1,0 +1,85 @@
+fieldLayouts:
+  312849ed-4610-435a-8850-df672ad05cef:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 75
+          -
+            fieldUid: 865b2841-55f6-4750-b1a3-b6d54b0b35ba
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+          -
+            fieldUid: 954d573c-b1be-4342-aaaf-c72c8a2d6a60
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+          -
+            fieldUid: da7847e5-204b-4792-85d5-915461c11f4e
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+          -
+            fieldUid: 8cee94e9-79d1-4be9-82c5-d57e2689817d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+          -
+            fieldUid: 7822b855-6bb1-4898-b1a4-fcc827516403
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+        name: Details
+        sortOrder: 1
+handle: product
+hasTitleField: true
+name: Product
+section: 826e2e4b-5fe0-4878-a177-d072ecf1c02d
+sortOrder: 1
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

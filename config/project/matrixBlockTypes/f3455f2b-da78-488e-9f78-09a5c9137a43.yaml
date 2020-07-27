@@ -1,0 +1,75 @@
+field: da7847e5-204b-4792-85d5-915461c11f4e
+fieldLayouts:
+  dc2829cd-58f9-4685-9db8-31d954c414ba:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 77ed0f30-2d54-4168-b7fb-6d780b5803b5
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: 114c68ab-a760-418e-af0e-3d3dd583fcc6
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+        name: Content
+        sortOrder: 1
+fields:
+  114c68ab-a760-418e-af0e-3d3dd583fcc6:
+    contentColumnType: string
+    fieldGroup: null
+    handle: person
+    instructions: ''
+    name: Person
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:10b06272-99be-4a67-8661-d2c4e5064f18'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  77ed0f30-2d54-4168-b7fb-6d780b5803b5:
+    contentColumnType: string
+    fieldGroup: null
+    handle: contributorType
+    instructions: ''
+    name: 'Contributor Type'
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      branchLimit: 1
+      limit: null
+      localizeRelations: false
+      selectionLabel: null
+      showBlankOption: '1'
+      showSiteMenu: true
+      source: 'group:79925f19-e365-4cdd-b8b8-2aaeafca1d3b'
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: elivz\singlecat\fields\SingleCatField
+handle: contributor
+name: Contributor
+sortOrder: 1

@@ -1,0 +1,10 @@
+handle: productCategories
+name: 'Product Categories'
+siteSettings:
+  1eac5e05-6bb4-47c3-ad67-d9f6c170d55c:
+    hasUrls: true
+    template: ''
+    uriFormat: 'product-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 028cc721-5f9f-4dea-90e7-d620d429ff4d

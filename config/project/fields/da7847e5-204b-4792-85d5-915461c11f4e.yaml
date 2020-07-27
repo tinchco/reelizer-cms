@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 68b8bf74-05e0-459b-8f1d-fb4f5493990b
+handle: contributors
+instructions: ''
+name: Contributors
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_contributors}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

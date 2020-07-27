@@ -1,0 +1,17 @@
+contentColumnType: text
+fieldGroup: 1168b37e-e44d-4837-a7b4-be37f0db3647
+handle: lastName
+instructions: ''
+name: 'Last Name'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
