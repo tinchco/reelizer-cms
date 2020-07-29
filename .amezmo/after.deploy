@@ -4,7 +4,7 @@
 set -e; 
 
 # Make sure the script is executable
-chmod +x project-config/apply;
+chmod +x ./craft project-config/apply;
 
 # Execute our script
-./project-config/apply;
+./craft project-config/apply;
