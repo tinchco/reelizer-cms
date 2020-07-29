@@ -3,8 +3,5 @@
 # Ensure our script fails if the apply command returns non-zero (failure exit code)
 set -e;
 
-# Make sure the script is executable
-chmod +x craft;
-
 # Execute our script
 ./craft project-config/apply;
