@@ -61,7 +61,6 @@ return [
     'production' => [
         // Set this to `false` to prevent administrative changes from being made on production
         'devMode'            => false,
-        'allowUpdates'       => false,
-        'allowAdminChanges'  => false
+        'allowUpdates'       => false
     ],
 ];
