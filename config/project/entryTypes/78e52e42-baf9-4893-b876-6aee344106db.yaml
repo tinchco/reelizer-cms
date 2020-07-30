@@ -27,7 +27,7 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
-            width: 75
+            width: 100
           -
             fieldUid: 865b2841-55f6-4750-b1a3-b6d54b0b35ba
             instructions: null
@@ -36,7 +36,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 75
+            width: 100
           -
             fieldUid: 954d573c-b1be-4342-aaaf-c72c8a2d6a60
             instructions: null
@@ -45,7 +45,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 75
+            width: 100
           -
             fieldUid: da7847e5-204b-4792-85d5-915461c11f4e
             instructions: null
@@ -54,7 +54,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 75
+            width: 100
           -
             fieldUid: 8cee94e9-79d1-4be9-82c5-d57e2689817d
             instructions: null
@@ -63,7 +63,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 75
+            width: 100
           -
             fieldUid: 7822b855-6bb1-4898-b1a4-fcc827516403
             instructions: null
@@ -72,7 +72,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 75
+            width: 100
         name: Details
         sortOrder: 1
 handle: product
