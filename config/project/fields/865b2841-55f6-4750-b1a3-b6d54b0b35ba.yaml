@@ -5,13 +5,12 @@ instructions: ''
 name: 'Product Categories'
 searchable: true
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
-  branchLimit: '1'
+  branchLimit: 1
   limit: null
   localizeRelations: false
-  selectionLabel: ''
+  selectionLabel: null
+  showBlankOption: '1'
   showSiteMenu: true
   source: 'group:374ba7ad-f9f4-4dd9-9fcf-71db673a5dc3'
   sources: '*'
@@ -20,4 +19,4 @@ settings:
   viewMode: null
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Categories
+type: elivz\singlecat\fields\SingleCatField
