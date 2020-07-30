@@ -16,11 +16,11 @@ return [
   '*' => [
     'images' => [
 	    'hasUrls' => true,
-	    'url' => getenv('CLOUDFRONT_URL'),
-	    'keyId' => '$S3_API_KEY',
+	    'url' => '$CLOUDFRONT_URL',
+	    'keyId' => '$S3_KEY_ID',
 	    'secret' => '$S3_SECRET',
-	    'bucket' => getenv('S3_BUCKET'),
-	    'region' => getenv('S3_REGION'),
+	    'bucket' => '$S3_BUCKET',
+	    'region' => '$S3_REGION',
     ],
   ],
 

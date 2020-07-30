@@ -49,4 +49,4 @@ settings:
   subfolder: images
 sortOrder: 1
 type: craft\awss3\Volume
-url: 'https://d2kj6gz9noqpfd.cloudfront.net'
+url: $CLOUDFRONT_URL
