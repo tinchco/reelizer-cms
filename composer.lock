@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6984a221eda633c422dea1423677e693",
+    "content-hash": "8c0b80dbc39f43622292d9c1fb366e0c",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.147.7",
+            "version": "3.147.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0d637e7cbc795996a75531ed8dd2272f2672b2f2"
+                "reference": "da548c59c87b0a54d2cd1a43e5e149e56ca2569b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0d637e7cbc795996a75531ed8dd2272f2672b2f2",
-                "reference": "0d637e7cbc795996a75531ed8dd2272f2672b2f2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/da548c59c87b0a54d2cd1a43e5e149e56ca2569b",
+                "reference": "da548c59c87b0a54d2cd1a43e5e149e56ca2569b",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-28T18:13:27+00:00"
+            "time": "2020-07-30T18:13:38+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -530,16 +530,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.5.0-RC4",
+            "version": "3.5.0-RC5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "d3488c59b4cfada77c1e51a2abf9bc8783b1fb7d"
+                "reference": "1f94545c91e46ece9492dd8c37a9dd9981b06c3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/d3488c59b4cfada77c1e51a2abf9bc8783b1fb7d",
-                "reference": "d3488c59b4cfada77c1e51a2abf9bc8783b1fb7d",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/1f94545c91e46ece9492dd8c37a9dd9981b06c3a",
+                "reference": "1f94545c91e46ece9492dd8c37a9dd9981b06c3a",
                 "shasum": ""
             },
             "require": {
@@ -623,7 +623,7 @@
                 "craftcms",
                 "yii2"
             ],
-            "time": "2020-07-28T14:15:53+00:00"
+            "time": "2020-07-30T22:04:27+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
