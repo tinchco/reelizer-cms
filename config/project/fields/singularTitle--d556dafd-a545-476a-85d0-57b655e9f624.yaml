@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 990c047c-2be4-4bb4-a549-6b98af340514
+handle: singularTitle
+instructions: ''
+name: 'Singular Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

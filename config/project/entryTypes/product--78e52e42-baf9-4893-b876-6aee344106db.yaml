@@ -11,8 +11,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: null
-            label: null
+            instructions: ''
+            label: ''
             max: null
             min: null
             name: null
@@ -26,6 +26,15 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 50
+          -
+            fieldUid: 981f21e9-4107-4a73-886f-134791ce25b0
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 50
           -
@@ -136,10 +145,10 @@ fieldLayouts:
         name: Details
         sortOrder: 1
 handle: product
-hasTitleField: true
+hasTitleField: false
 name: Product
 section: 826e2e4b-5fe0-4878-a177-d072ecf1c02d
 sortOrder: 1
-titleFormat: null
+titleFormat: '{productTitle} {% for category in object.productCategories.all() %}{{ category.singularTitle }}{% endfor %}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
