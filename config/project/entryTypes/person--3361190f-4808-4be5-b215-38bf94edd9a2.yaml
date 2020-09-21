@@ -45,6 +45,15 @@ fieldLayouts:
             warning: null
             width: 50
           -
+            fieldUid: 2dec9888-a06e-4061-8f65-740071bafd43
+            instructions: ''
+            label: Bio
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             type: craft\fieldlayoutelements\HorizontalRule
           -
             fieldUid: ff6f369a-7a6d-4c9e-944d-047030f6ecf2
@@ -56,7 +65,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c7938049-6c93-49fe-b423-5082638ae6aa
+            fieldUid: 14755e26-0c83-4329-bb58-d61b8d707e0b
             instructions: null
             label: null
             required: false
@@ -65,7 +74,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 14755e26-0c83-4329-bb58-d61b8d707e0b
+            fieldUid: c7938049-6c93-49fe-b423-5082638ae6aa
             instructions: null
             label: null
             required: false

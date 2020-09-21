@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 3183a522-3f08-4dbd-91b3-e38784120d7a
+handle: instagramUsername
+instructions: ''
+name: 'Instagram Username'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
