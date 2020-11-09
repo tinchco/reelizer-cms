@@ -2,7 +2,7 @@
   "require": {
     "craftcms/aws-s3": "1.2.11",
     "craftcms/cms": "^3.5.0-RC5",
-    "craftcms/redactor": "^2.7.2",
+    "craftcms/redactor": "2.8.3",
     "elivz/craft-single-cat": "1.2.1",
     "vlucas/phpdotenv": "^3.4.0"
   },
