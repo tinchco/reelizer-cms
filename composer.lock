@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6870eb24953914eaa0d103fb189a099",
+    "content-hash": "0f3e86b208bdb7c138ec39680efdfd49",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.159.0",
+            "version": "3.164.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "56785395913fe4253202d0da9055c2da87ac0a59"
+                "reference": "39ecf57d828eb50ab23fd70255a68b8996392ac9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/56785395913fe4253202d0da9055c2da87ac0a59",
-                "reference": "56785395913fe4253202d0da9055c2da87ac0a59",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/39ecf57d828eb50ab23fd70255a68b8996392ac9",
+                "reference": "39ecf57d828eb50ab23fd70255a68b8996392ac9",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-11-09T17:18:56+00:00"
+            "time": "2020-11-24T19:18:22+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -448,16 +448,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "6e076a124f7ee146f2487554a94b6a19a74887ba"
+                "reference": "f28d44c286812c714741478d968104c5e604a1d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/6e076a124f7ee146f2487554a94b6a19a74887ba",
-                "reference": "6e076a124f7ee146f2487554a94b6a19a74887ba",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/f28d44c286812c714741478d968104c5e604a1d4",
+                "reference": "f28d44c286812c714741478d968104c5e604a1d4",
                 "shasum": ""
             },
             "require": {
@@ -502,7 +502,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:39:10+00:00"
+            "time": "2020-11-13T08:04:11+00:00"
         },
         {
             "name": "craftcms/aws-s3",
@@ -562,16 +562,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.5.15.1",
+            "version": "3.5.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "523a2d915ec328d832bd2cf62df695a1eafb3ab7"
+                "reference": "1d69bfb0308d3b56990d7b257591071992d7a297"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/523a2d915ec328d832bd2cf62df695a1eafb3ab7",
-                "reference": "523a2d915ec328d832bd2cf62df695a1eafb3ab7",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/1d69bfb0308d3b56990d7b257591071992d7a297",
+                "reference": "1d69bfb0308d3b56990d7b257591071992d7a297",
                 "shasum": ""
             },
             "require": {
@@ -598,7 +598,7 @@
                 "mrclay/jsmin-php": "^2.4",
                 "mrclay/minify": "^3.0.7",
                 "php": ">=7.0.0",
-                "pixelandtonic/imagine": "~1.2.2.1",
+                "pixelandtonic/imagine": "~1.2.4.1",
                 "sebastian/diff": "^2.0|^3.0|^4.0",
                 "seld/cli-prompt": "^1.0.3",
                 "symfony/yaml": "^3.2|^4.0",
@@ -609,7 +609,7 @@
                 "webonyx/graphql-php": "^0.12.0",
                 "yii2tech/ar-softdelete": "^1.0.2",
                 "yiisoft/yii2": "~2.0.38.0",
-                "yiisoft/yii2-debug": "^2.1.0",
+                "yiisoft/yii2-debug": "^2.1.14",
                 "yiisoft/yii2-queue": "~2.3.0",
                 "yiisoft/yii2-swiftmailer": "^2.1.0"
             },
@@ -656,7 +656,58 @@
                 "craftcms",
                 "yii2"
             ],
-            "time": "2020-11-04T11:25:55+00:00"
+            "time": "2020-11-24T19:40:32+00:00"
+        },
+        {
+            "name": "craftcms/gatsby-helper",
+            "version": "1.0.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/gatsby-helper.git",
+                "reference": "172bfedbbf906efbc217d2adfa55661822da2962"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/gatsby-helper/zipball/172bfedbbf906efbc217d2adfa55661822da2962",
+                "reference": "172bfedbbf906efbc217d2adfa55661822da2962",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.5.11"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Gatsby Helper",
+                "handle": "gatsby-helper",
+                "developerUrl": "https://craftcms.com/"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\gatsbyhelper\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic, Inc. <support@pixelandtonic.com>",
+                    "homepage": "https://craftcms.com/"
+                }
+            ],
+            "description": "Plugin for enabling support for the Gatsby Craft CMS source plugin.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "gatsby"
+            ],
+            "support": {
+                "docs": "https://github.com/craftcms/gatsby-helper",
+                "issues": "https://github.com/craftcms/gatsby-helper/issues"
+            },
+            "time": "2020-11-03T21:13:08+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -756,16 +807,16 @@
         },
         {
             "name": "craftcms/redactor",
-            "version": "2.8.3",
+            "version": "2.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/redactor.git",
-                "reference": "92e2aa88ae1aa60fee0fc83b2dede4806395979c"
+                "reference": "73113daea0541ee53036a4129428ddcf8e056ba0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/92e2aa88ae1aa60fee0fc83b2dede4806395979c",
-                "reference": "92e2aa88ae1aa60fee0fc83b2dede4806395979c",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/73113daea0541ee53036a4129428ddcf8e056ba0",
+                "reference": "73113daea0541ee53036a4129428ddcf8e056ba0",
                 "shasum": ""
             },
             "require": {
@@ -782,6 +833,7 @@
                     "craft\\redactor\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -793,20 +845,13 @@
             ],
             "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
             "keywords": [
+                "Redactor",
                 "cms",
                 "craftcms",
                 "html",
-                "redactor",
                 "yii2"
             ],
-            "support": {
-                "email": "support@craftcms.com",
-                "issues": "https://github.com/craftcms/redactor/issues?state=open",
-                "source": "https://github.com/craftcms/redactor",
-                "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
-                "rss": "https://github.com/craftcms/redactor/commits/v2.atom"
-            },
-            "time": "2020-10-19T13:52:37+00:00"
+            "time": "2020-11-30T15:20:16+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -1007,16 +1052,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.23",
+            "version": "2.1.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df"
+                "reference": "ca90a3291eee1538cd48ff25163240695bd95448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df",
-                "reference": "5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ca90a3291eee1538cd48ff25163240695bd95448",
+                "reference": "ca90a3291eee1538cd48ff25163240695bd95448",
                 "shasum": ""
             },
             "require": {
@@ -1061,7 +1106,13 @@
                 "validation",
                 "validator"
             ],
-            "time": "2020-10-31T20:37:35+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/egulias",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-11-14T15:56:27+00:00"
         },
         {
             "name": "elivz/craft-single-cat",
@@ -2039,23 +2090,23 @@
         },
         {
             "name": "mikehaertl/php-shellcommand",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikehaertl/php-shellcommand.git",
-                "reference": "06d6220c77c4632b639f4855f76026c59bceb8aa"
+                "reference": "fe86ec847877b83bf61a96719e7f2e3b3e516a6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikehaertl/php-shellcommand/zipball/06d6220c77c4632b639f4855f76026c59bceb8aa",
-                "reference": "06d6220c77c4632b639f4855f76026c59bceb8aa",
+                "url": "https://api.github.com/repos/mikehaertl/php-shellcommand/zipball/fe86ec847877b83bf61a96719e7f2e3b3e516a6b",
+                "reference": "fe86ec847877b83bf61a96719e7f2e3b3e516a6b",
                 "shasum": ""
             },
             "require": {
-                "php": ">= 5.4.0"
+                "php": ">= 5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": ">4.0 <8"
+                "phpunit/phpunit": ">4.0 <=9.4"
             },
             "type": "library",
             "autoload": {
@@ -2077,7 +2128,7 @@
             "keywords": [
                 "shell"
             ],
-            "time": "2020-08-30T09:56:40+00:00"
+            "time": "2020-11-23T17:31:15+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2761,24 +2812,24 @@
         },
         {
             "name": "pixelandtonic/imagine",
-            "version": "1.2.2.1",
+            "version": "1.2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pixelandtonic/Imagine.git",
-                "reference": "c70db7d7f6bd6fb0abc7562bdabe51265af2518b"
+                "reference": "2bedcf2dfab50a22126498a16241944c9d4cde65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pixelandtonic/Imagine/zipball/c70db7d7f6bd6fb0abc7562bdabe51265af2518b",
-                "reference": "c70db7d7f6bd6fb0abc7562bdabe51265af2518b",
+                "url": "https://api.github.com/repos/pixelandtonic/Imagine/zipball/2bedcf2dfab50a22126498a16241944c9d4cde65",
+                "reference": "2bedcf2dfab50a22126498a16241944c9d4cde65",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "2.2.*",
-                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.4 || ^8.2"
+                "friendsofphp/php-cs-fixer": "^2.2",
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.5 || ^8.4 || ^9.3"
             },
             "suggest": {
                 "ext-gd": "to use the GD implementation",
@@ -2815,7 +2866,7 @@
                 "image manipulation",
                 "image processing"
             ],
-            "time": "2019-07-19T12:55:50+00:00"
+            "time": "2020-11-05T18:36:18+00:00"
         },
         {
             "name": "psr/container",
@@ -3105,16 +3156,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.8.2",
+            "version": "1.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "590cfec960b77fd55e39b7d9246659e95dd6d337"
+                "reference": "9ad6ce79c342fbd44df10ea95511a1b24dee5b57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/590cfec960b77fd55e39b7d9246659e95dd6d337",
-                "reference": "590cfec960b77fd55e39b7d9246659e95dd6d337",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/9ad6ce79c342fbd44df10ea95511a1b24dee5b57",
+                "reference": "9ad6ce79c342fbd44df10ea95511a1b24dee5b57",
                 "shasum": ""
             },
             "require": {
@@ -3160,7 +3211,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-25T06:56:57+00:00"
+            "time": "2020-11-11T09:19:24+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -4458,21 +4509,21 @@
         },
         {
             "name": "voku/anti-xss",
-            "version": "4.1.29",
+            "version": "4.1.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/anti-xss.git",
-                "reference": "628f4590a83719c0546dbf997f9d035cc4889351"
+                "reference": "ff6e54f4a98ad1cd28f8b4a0f3c3f92f3c421f0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/anti-xss/zipball/628f4590a83719c0546dbf997f9d035cc4889351",
-                "reference": "628f4590a83719c0546dbf997f9d035cc4889351",
+                "url": "https://api.github.com/repos/voku/anti-xss/zipball/ff6e54f4a98ad1cd28f8b4a0f3c3f92f3c421f0a",
+                "reference": "ff6e54f4a98ad1cd28f8b4a0f3c3f92f3c421f0a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "voku/portable-utf8": "~5.4.48"
+                "voku/portable-utf8": "~5.4.50"
             },
             "require-dev": {
                 "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
@@ -4533,7 +4584,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-08T23:43:21+00:00"
+            "time": "2020-11-12T00:30:57+00:00"
         },
         {
             "name": "voku/arrayy",
@@ -4669,16 +4720,16 @@
         },
         {
             "name": "voku/portable-ascii",
-            "version": "1.5.4",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "87dc337d4200b32717dd3849fea846319e897658"
+                "reference": "80953678b19901e5165c56752d087fc11526017c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/87dc337d4200b32717dd3849fea846319e897658",
-                "reference": "87dc337d4200b32717dd3849fea846319e897658",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/80953678b19901e5165c56752d087fc11526017c",
+                "reference": "80953678b19901e5165c56752d087fc11526017c",
                 "shasum": ""
             },
             "require": {
@@ -4735,20 +4786,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-08T21:15:15+00:00"
+            "time": "2020-11-12T00:07:28+00:00"
         },
         {
             "name": "voku/portable-utf8",
-            "version": "5.4.48",
+            "version": "5.4.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-utf8.git",
-                "reference": "0f9f156eb0baa0bf72ceef250cd74fe70e2e6379"
+                "reference": "f14ed68ea9ced6639e71ca989c6d907892115ba0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/0f9f156eb0baa0bf72ceef250cd74fe70e2e6379",
-                "reference": "0f9f156eb0baa0bf72ceef250cd74fe70e2e6379",
+                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/f14ed68ea9ced6639e71ca989c6d907892115ba0",
+                "reference": "f14ed68ea9ced6639e71ca989c6d907892115ba0",
                 "shasum": ""
             },
             "require": {
@@ -4758,7 +4809,7 @@
                 "symfony/polyfill-intl-normalizer": "~1.0",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/polyfill-php72": "~1.0",
-                "voku/portable-ascii": "~1.5"
+                "voku/portable-ascii": "~1.5.6"
             },
             "require-dev": {
                 "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
@@ -4830,7 +4881,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-07T23:30:22+00:00"
+            "time": "2020-11-12T00:17:47+00:00"
         },
         {
             "name": "voku/stop-words",
@@ -5344,16 +5395,16 @@
         },
         {
             "name": "yiisoft/yii2-debug",
-            "version": "2.1.13",
+            "version": "2.1.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "696712a2a3565b1a072ad3c9d298e262967e8282"
+                "reference": "317f85c1ac7a8c0b73eea345a49066b5570aa2c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/696712a2a3565b1a072ad3c9d298e262967e8282",
-                "reference": "696712a2a3565b1a072ad3c9d298e262967e8282",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/317f85c1ac7a8c0b73eea345a49066b5570aa2c6",
+                "reference": "317f85c1ac7a8c0b73eea345a49066b5570aa2c6",
                 "shasum": ""
             },
             "require": {
@@ -5363,7 +5414,8 @@
                 "yiisoft/yii2": "~2.0.13"
             },
             "require-dev": {
-                "phpunit/phpunit": "<7",
+                "cweagans/composer-patches": "^1.7",
+                "phpunit/phpunit": "4.8.34",
                 "yiisoft/yii2-coding-standards": "~2.0",
                 "yiisoft/yii2-swiftmailer": "*"
             },
@@ -5371,6 +5423,16 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
+                },
+                "composer-exit-on-patch-failure": true,
+                "patches": {
+                    "phpunit/phpunit-mock-objects": {
+                        "Fix PHP 7 and 8 compatibility": "https://yiisoft.github.io/phpunit-patches/phpunit_mock_objects.patch"
+                    },
+                    "phpunit/phpunit": {
+                        "Fix PHP 7 compatibility": "https://yiisoft.github.io/phpunit-patches/phpunit_php7.patch",
+                        "Fix PHP 8 compatibility": "https://yiisoft.github.io/phpunit-patches/phpunit_php8.patch"
+                    }
                 }
             },
             "autoload": {
@@ -5398,7 +5460,21 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2020-01-17T13:40:32+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-debug",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-11-13T10:09:11+00:00"
         },
         {
             "name": "yiisoft/yii2-queue",
@@ -5826,7 +5902,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "craftcms/cms": 5
+        "craftcms/gatsby-helper": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
