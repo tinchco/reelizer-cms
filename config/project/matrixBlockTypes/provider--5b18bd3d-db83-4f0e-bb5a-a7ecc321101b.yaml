@@ -51,9 +51,9 @@ fields:
   a5e55995-b048-4bac-85f4-efc00441336c:
     contentColumnType: string
     fieldGroup: null
-    handle: organiization
+    handle: organization
     instructions: ''
-    name: Organiization
+    name: Organization
     searchable: true
     settings:
       allowSelfRelations: false
