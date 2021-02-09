@@ -34,9 +34,6 @@ return [
         // The secure key Craft will use for hashing and encrypting data
         'securityKey' => App::env('SECURITY_KEY'),
 
-        // The base URL to the site(s)
-        'siteUrl' => App::env('DEFAULT_SITE_URL') ?: '@web',
-
         // Whether Craft should set users’ usernames to their email addresses
         // 'useEmailAsUsername' => true,
 

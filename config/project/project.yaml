@@ -1,7 +1,7 @@
 assets:
   tempSubpath: _tempuploads
   tempVolumeUid: 063c95ee-112b-4ccf-adcb-3eb6a2831580
-dateModified: 1612800271
+dateModified: 1612891764
 email:
   fromEmail: ret+reelizer@tinch.co
   fromName: Reelizer
@@ -26,7 +26,8 @@ plugins:
 system:
   edition: pro
   live: true
-  name: Reelizer
+  name: $SITE_NAME
+  retryDuration: null
   schemaVersion: 3.6.1
   timeZone: America/Los_Angeles
 users:
