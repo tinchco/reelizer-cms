@@ -15,3 +15,6 @@ scope:
   - 'categorygroups.79925f19-e365-4cdd-b8b8-2aaeafca1d3b:read'
   - 'categorygroups.374ba7ad-f9f4-4dd9-9fcf-71db673a5dc3:read'
   - 'categorygroups.e52cd604-4fc7-4759-9563-9bb50ec69afa:read'
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
