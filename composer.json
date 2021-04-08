@@ -5,6 +5,8 @@
     "craftcms/gatsby-helper": "^1.0.0-beta.1",
     "craftcms/redactor": "^2.8.4",
     "elivz/craft-single-cat": "^1.2.1",
+    "spacecatninja/imager-x": "^3.4",
+    "spacecatninja/imager-x-imageoptim-optimizer": "^1.0",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {

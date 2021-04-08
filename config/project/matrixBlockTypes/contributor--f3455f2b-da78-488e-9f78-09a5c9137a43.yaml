@@ -25,28 +25,6 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  114c68ab-a760-418e-af0e-3d3dd583fcc6:
-    contentColumnType: string
-    fieldGroup: null
-    handle: person
-    instructions: ''
-    name: Person
-    searchable: true
-    settings:
-      allowSelfRelations: false
-      limit: ''
-      localizeRelations: false
-      selectionLabel: ''
-      showSiteMenu: true
-      source: null
-      sources:
-        - 'section:10b06272-99be-4a67-8661-d2c4e5064f18'
-      targetSiteId: null
-      validateRelatedElements: false
-      viewMode: null
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Entries
   77ed0f30-2d54-4168-b7fb-6d780b5803b5:
     contentColumnType: string
     fieldGroup: null
@@ -70,6 +48,28 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: elivz\singlecat\fields\SingleCatField
+  114c68ab-a760-418e-af0e-3d3dd583fcc6:
+    contentColumnType: string
+    fieldGroup: null
+    handle: person
+    instructions: ''
+    name: Person
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:10b06272-99be-4a67-8661-d2c4e5064f18'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
 handle: contributor
 name: Contributor
 sortOrder: 1
