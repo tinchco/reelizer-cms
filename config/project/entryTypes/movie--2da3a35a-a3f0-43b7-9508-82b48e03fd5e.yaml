@@ -1,0 +1,21 @@
+fieldLayouts:
+  e6799fdf-e4ab-4607-8ae9-c780705be91f:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Name
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 7c5f7163-94ca-463f-9658-2a71fa550d15
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Details
+        sortOrder: 1
+handle: movie
+hasTitleField: true
+name: Movie
+section: 04feea2b-63cb-417d-936d-e76f76c80345
+sortOrder: 1
+titleFormat: ''

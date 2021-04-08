@@ -1,0 +1,17 @@
+contentColumnType: text
+fieldGroup: 4f79aecd-c458-49fb-9f06-0510815918ed
+handle: originalName
+instructions: ''
+name: 'Original Name'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

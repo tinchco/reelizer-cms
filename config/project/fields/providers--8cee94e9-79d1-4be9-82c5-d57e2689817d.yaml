@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 68b8bf74-05e0-459b-8f1d-fb4f5493990b
+handle: providers
+instructions: ''
+name: Providers
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_providers}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

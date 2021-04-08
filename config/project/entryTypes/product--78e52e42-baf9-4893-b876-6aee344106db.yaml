@@ -1,0 +1,144 @@
+fieldLayouts:
+  312849ed-4610-435a-8850-df672ad05cef:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: ''
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 50
+          -
+            fieldUid: 865b2841-55f6-4750-b1a3-b6d54b0b35ba
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 2dec9888-a06e-4061-8f65-740071bafd43
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 954d573c-b1be-4342-aaaf-c72c8a2d6a60
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: da7847e5-204b-4792-85d5-915461c11f4e
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8cee94e9-79d1-4be9-82c5-d57e2689817d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7822b855-6bb1-4898-b1a4-fcc827516403
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            heading: Links
+            type: craft\fieldlayoutelements\Heading
+          -
+            fieldUid: c7938049-6c93-49fe-b423-5082638ae6aa
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            heading: Specs
+            type: craft\fieldlayoutelements\Heading
+          -
+            fieldUid: 91d48212-080b-4a9c-975d-35481fa11c78
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1a13d0b7-bd04-42f3-8b38-c9fdb40af416
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: 4baff253-d345-48df-804d-96e66eb561d3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: 88329fc2-a3cf-47c6-8804-fdffbcee9b01
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+        name: Details
+        sortOrder: 1
+handle: product
+hasTitleField: true
+name: Product
+section: 826e2e4b-5fe0-4878-a177-d072ecf1c02d
+sortOrder: 1
+titleFormat: '{productTitle} {% for category in object.productCategories.all() %}{{ category.singularTitle }}{% endfor %}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

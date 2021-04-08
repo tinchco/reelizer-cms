@@ -1,0 +1,75 @@
+field: 8cee94e9-79d1-4be9-82c5-d57e2689817d
+fieldLayouts:
+  14f61ee0-2576-43fa-88f5-73ae7481ab47:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4b087523-7f23-4bad-8312-8c7b2f40a8fb
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
+          -
+            fieldUid: a5e55995-b048-4bac-85f4-efc00441336c
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 75
+        name: Content
+        sortOrder: 1
+fields:
+  4b087523-7f23-4bad-8312-8c7b2f40a8fb:
+    contentColumnType: string
+    fieldGroup: null
+    handle: providerType
+    instructions: ''
+    name: 'Provider Type'
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      branchLimit: 1
+      limit: null
+      localizeRelations: false
+      selectionLabel: null
+      showBlankOption: '1'
+      showSiteMenu: true
+      source: 'group:e52cd604-4fc7-4759-9563-9bb50ec69afa'
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: elivz\singlecat\fields\SingleCatField
+  a5e55995-b048-4bac-85f4-efc00441336c:
+    contentColumnType: string
+    fieldGroup: null
+    handle: organization
+    instructions: ''
+    name: Organization
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:631c669b-e61b-4ed2-8671-ab5581cddcf1'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: provider
+name: Provider
+sortOrder: 1

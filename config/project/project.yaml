@@ -1,0 +1,43 @@
+assets:
+  tempSubpath: _tempuploads
+  tempVolumeUid: 063c95ee-112b-4ccf-adcb-3eb6a2831580
+dateModified: 1617894128
+email:
+  fromEmail: ret+reelizer@tinch.co
+  fromName: Reelizer
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
+  gatsby-helper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  imager-x:
+    edition: lite
+    enabled: true
+    licenseKey: Q4HTGFQMABY05JNAIPN4FKP5
+    schemaVersion: 3.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  single-cat:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.0
+system:
+  edition: pro
+  live: true
+  name: $SITE_NAME
+  retryDuration: null
+  schemaVersion: 3.6.7
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

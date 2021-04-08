@@ -1,0 +1,22 @@
+contentColumnType: string
+fieldGroup: 68b8bf74-05e0-459b-8f1d-fb4f5493990b
+handle: productCategories
+instructions: ''
+name: 'Product Categories'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: 1
+  limit: null
+  localizeRelations: false
+  selectionLabel: null
+  showBlankOption: '1'
+  showSiteMenu: true
+  source: 'group:374ba7ad-f9f4-4dd9-9fcf-71db673a5dc3'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: elivz\singlecat\fields\SingleCatField

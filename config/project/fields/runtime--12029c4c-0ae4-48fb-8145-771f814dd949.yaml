@@ -1,0 +1,17 @@
+contentColumnType: integer(10)
+fieldGroup: 4f79aecd-c458-49fb-9f06-0510815918ed
+handle: runtime
+instructions: ''
+name: Runtime
+searchable: true
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: ''
+  size: '4'
+  suffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number
