@@ -1,9 +1,7 @@
-isPublic: true
-name: 'Public Schema'
+isPublic: false
+name: Published
 scope:
-  - 'elements.drafts:read'
   - 'elements.revisions:read'
-  - 'elements.inactive:read'
   - 'sections.61807da0-a442-4685-bfcc-09bf44bb182c:read'
   - 'entrytypes.1df00b0a-8c79-4001-8d47-46e45ea01067:read'
   - 'sections.04feea2b-63cb-417d-936d-e76f76c80345:read'
