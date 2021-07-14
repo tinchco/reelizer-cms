@@ -1,11 +1,15 @@
 assets:
   tempSubpath: _tempuploads
   tempVolumeUid: 063c95ee-112b-4ccf-adcb-3eb6a2831580
-dateModified: 1618348776
+dateModified: 1626287946
 email:
   fromEmail: ret+reelizer@tinch.co
   fromName: Reelizer
   transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    30b01977-9313-46d1-b305-2606470ef0c0: Published # Published
+    fb3be199-ee1e-4073-9808-2e7aa404470c: 'Public Schema' # Public Schema
 plugins:
   aws-s3:
     edition: standard
@@ -14,7 +18,7 @@ plugins:
   gatsby-helper:
     edition: standard
     enabled: true
-    schemaVersion: 1.0.1
+    schemaVersion: 2.0.0
   imager-x:
     edition: lite
     enabled: true
@@ -33,7 +37,7 @@ system:
   live: true
   name: $SITE_NAME
   retryDuration: null
-  schemaVersion: 3.6.8
+  schemaVersion: 3.7.7
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
